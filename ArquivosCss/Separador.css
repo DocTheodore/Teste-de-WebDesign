@@ -1,0 +1,83 @@
+/*=== Ferramenta de separação entre paragrafoss e colunas por Thiago Moreira ===*/
+/*=== v0.0.1 ===*/
+
+/* Separação de paragrafos */
+.paragrafo{
+    width: 960px;
+    padding: 5px 0;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* Marca D´agua do site */
+.MarcaDagua{
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Separação de partes */
+.p1{
+    padding: 0 10px;
+    width: 60px;
+    float: left;
+}
+.p2{
+    padding: 0 10px;
+    width: 140px;
+    float: left;
+}
+.p3{
+    padding: 0 10px;
+    width: 220px;
+    float: left;
+}
+.p4{
+    padding: 0 10px;
+    width: 300px;
+    float: left;
+}
+.p5{
+    padding: 0 10px;
+    width: 380px;
+    float: left;
+}
+.p6{
+    padding: 0 10px;
+    width: 460px;
+    float: left;
+}
+.p7{
+    padding: 0 10px;
+    width: 540px;
+    float: left;
+}
+.p8{
+    padding: 0 10px;
+    width: 620px;
+    float: left;
+}
+.p9{
+    padding: 0 10px;
+    width: 700px;
+    float: left;
+}
+.p10{
+    padding: 0 10px;
+    width: 780px;
+    float: left;
+}
+.p11{
+    padding: 0 10px;
+    width: 860px;
+    float: left;
+}
+.p12{
+    padding: 0 10px;
+    width: 940px;
+    float: left;
+}
+/*                   === Aviso! ===
+toda linha de pagina deve ter 960px para um design agradavel,
+vc tera de somar os numeros das partes até que se some 12, caso contrario
+a pagina ficara com uma parencia estranha 
+*/
