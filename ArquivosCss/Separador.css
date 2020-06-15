@@ -1,21 +1,23 @@
-/*=== Ferramenta de separação entre paragrafoss e colunas por Thiago Moreira ===*/
-/*=== v0.0.1 ===*/
+/*** Ferramenta de separação entre Paragrafos e colunas por Thiago Moreira ***/
+/*** v0.0.3 ***/
 
-/* Separação de paragrafos */
+/*=== Separação de Paragrafos ===*/
 .paragrafo{
     width: 960px;
     padding: 5px 0;
     margin: 0 auto;
     overflow: auto;
 }
+/*============================*/
 
-/* Marca D´agua do site */
+/*=== Marca D´agua do site ===*/
 .MarcaDagua{
     text-align: center;
     padding: 20px 0;
 }
+/*=============================*/
 
-/* Separação de partes */
+/*=== Separação de partes ===*/
 .p1{
     padding: 0 10px;
     width: 60px;
@@ -76,8 +78,39 @@
     width: 940px;
     float: left;
 }
-/*                   === Aviso! ===
+/*                   *** Aviso! ***
 toda linha de pagina deve ter 960px para um design agradavel,
 vc tera de somar os numeros das partes até que se some 12, caso contrario
 a pagina ficara com uma parencia estranha 
+|                    ***************
 */
+/*=====================*/
+
+/*=== removedores ===*/
+.sem_padding{
+    padding: 0 !important;
+}
+.sem_margin{
+    margin: 0 !important;
+}
+/*===================*/
+
+/*=== destaque para titulos ===*/
+h1,h2,h3,h4,h5,h6{
+    margin: 15px 0 10px 0;
+    font-weight: 500;
+}
+/*=============================*/
+
+/*=== Modificações para listas ===*/
+ol li, ul li{
+    margin-bottom: 5px;
+}
+ol.vertical li, ul.vertical li{
+    display: inline;
+    margin-left: 15px;
+}
+ol.vertical li:first-child, ul.vertical li:first-child{
+    margin-left: 0;
+}
+/*================================*/
