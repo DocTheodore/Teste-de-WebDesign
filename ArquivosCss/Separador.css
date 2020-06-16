@@ -10,8 +10,8 @@
 }
 /*============================*/
 
-/*=== Marca D´agua do site ===*/
-.MarcaDagua{
+/*=== footer do site ===*/
+.footer{
     text-align: center;
     padding: 20px 0;
 }
@@ -106,11 +106,11 @@ h1,h2,h3,h4,h5,h6{
 ol li, ul li{
     margin-bottom: 5px;
 }
-ol.vertical li, ul.vertical li{
+ol.horizontal li, ul.horizontal li{
     display: inline;
     margin-left: 15px;
 }
-ol.vertical li:first-child, ul.vertical li:first-child{
+ol.horizontal li:first-child, ul.horizontal li:first-child{
     margin-left: 0;
 }
 /*================================*/

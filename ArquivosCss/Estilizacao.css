@@ -1,4 +1,13 @@
 /**** Css para a pagina ****/
-ul.menu{
-    list-style: none;
+div{
+    background-color: #e3e3e3;
+}
+div.header, div.header div{
+    background-color: lightsteelblue ;
+}
+
+.logo{
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: -2px;
 }
