@@ -114,3 +114,40 @@ ol.horizontal li:first-child, ul.horizontal li:first-child{
     margin-left: 0;
 }
 /*================================*/
+
+/*=== Modificações na aparencia para textos interativos ===*/
+a.botao, input.botao{
+    background: #66ff66;
+    color: #ebebeb;
+    border: none;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px, 0;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+a.botao:hover, input.botao:hover{
+    background: #11ff33;
+}
+/*=========================================================*/
+
+/*=== Modificações para formularios ===*/
+.form_organizado label{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+}
+.form_organizado input, .form_organizado textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px, 5%;
+    width: 95%;
+}
+.form_organizado textarea{
+    height: 150px;
+}
+.form_organizado input.botao{
+    width: auto;
+}
+/*=====================================*/
