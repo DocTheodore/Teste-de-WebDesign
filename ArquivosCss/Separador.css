@@ -116,6 +116,16 @@ ol.horizontal li:first-child, ul.horizontal li:first-child{
 /*================================*/
 
 /*=== Modificações na aparencia para textos interativos ===*/
+.menu li a{
+    color: #11ff33;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    color: #ebebeb;
+    background-color: #11ff33;
+}
 a.botao, input.botao{
     background: #66ff66;
     color: #ebebeb;
