@@ -116,9 +116,14 @@ ol.horizontal li:first-child, ul.horizontal li:first-child{
 /*================================*/
 
 /*=== Modificações na aparencia para textos interativos ===*/
-.menu li a{
+/*** Esta é apenas uma base, faça as alterações que desejar ***/
+a{
     color: #11ff33;
     text-decoration: none;
+    cursor: pointer;
+}
+.menu li a{
+    color: #11ff33;
     padding: 5px 10px;
     border-radius: 3px;
 }
