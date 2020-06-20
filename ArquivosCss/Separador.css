@@ -14,6 +14,7 @@
 .footer{
     text-align: center;
     padding: 20px 0;
+    font-weight: 100;
 }
 /*=============================*/
 
@@ -93,6 +94,9 @@ a pagina ficara com uma parencia estranha
 .sem_margin{
     margin: 0 !important;
 }
+ul.sem_marcadores, ol.sem_marcadores{
+    list-style: none;
+}
 /*===================*/
 
 /*=== destaque para titulos ===*/
@@ -122,6 +126,9 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+a:hover{
+    text-decoration: underline;
+}
 .menu li a{
     color: #11ff33;
     padding: 5px 10px;
@@ -130,6 +137,7 @@ a{
 .menu li a:hover{
     color: #ebebeb;
     background-color: #11ff33;
+    text-decoration: none;
 }
 a.botao, input.botao{
     background: #66ff66;
@@ -146,6 +154,13 @@ a.botao:hover, input.botao:hover{
     background: #11ff33;
 }
 /*=========================================================*/
+
+/*=== estabilização das imagens ===*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*=================================*/
 
 /*=== Modificações para formularios ===*/
 .form_organizado label{

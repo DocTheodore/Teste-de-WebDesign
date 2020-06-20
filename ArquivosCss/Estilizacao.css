@@ -1,13 +1,19 @@
 /**** Css para a pagina ****/
-div{
-    background-color: #e3e3e3;
-}
-div.header, div.header div{
-    background-color: lightsteelblue ;
+.header{
+    background-color: #ccffcc ;
 }
 
-.logo{
+h1.logo{
     font-size: 30px;
-    color: #ffffff;
+    color: #339933;
     letter-spacing: -2px;
+}
+
+.conteudoEx{
+    background: #f1f9ea;
+}
+
+.footer{
+    background: #118811;
+    color: #ebebeb;
 }
